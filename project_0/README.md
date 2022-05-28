@@ -26,23 +26,23 @@
 **Что практикуем**
 Учимся писать хороший код на python
 
-:arrow_up:[к оглавлению](_)
+:arrow_up:[к оглавлению](https://github.com/Chipayka/SFDS/tree/main/project_0/README.md#Оглавление)
 
 ### Краткая информация о данных
 ....
 
-:arrow_up:[к оглавлению](_)
+:arrow_up:[к оглавлению](https://github.com/Chipayka/SFDS/tree/main/project_0/README.md#Оглавление)
 
 ### Этапы работы над проектом
 ....
 
-:arrow_up:[к оглавлению](_)
+:arrow_up:[к оглавлению](https://github.com/Chipayka/SFDS/tree/main/project_0/README.md#Оглавление)
 
 ### Результаты:
 ....
 
-:arrow_up:[к оглавлению](_)
+:arrow_up:[к оглавлению](https://github.com/Chipayka/SFDS/tree/main/project_0/README.md#Оглавление)
 ### Выводы:
 ....
 
-:arrow_up:[к оглавлению](_)
+:arrow_up:[к оглавлению](https://github.com/Chipayka/SFDS/tree/main/project_0/README.md#Оглавление)
