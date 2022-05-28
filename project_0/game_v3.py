@@ -13,13 +13,13 @@ def random_predict(number:int=1) -> int:
         int: Число попыток
     """
 
-    count = 0
-    min = 0
-    max = 100
+    count = 0 #число попыток
+    min = 0 #начальное минимальное значение загаданного числа
+    max = 100 #начальное максимальное значение загаданного числа
 
     while True:
         count += 1
-        predict_number = round((min+max)/2) # сужаем поиск, делим
+        predict_number = round((min+max)/2) # «складываем вдвое» область поиска, пока не останется одно число
         if number == predict_number:
             break # выход из цикла, если угадали
         elif number > predict_number:
