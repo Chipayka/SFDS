@@ -54,4 +54,3 @@ def score_game(random_predict) -> int:
 # RUN
 if __name__ == '__main__':
     score_game(random_predict)
-#print(f'Количество попыток: {random_predict()}')

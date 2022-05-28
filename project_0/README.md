@@ -41,7 +41,7 @@
 :arrow_up:[к оглавлению](https://github.com/Chipayka/SFDS/tree/main/project_0/README.md#Оглавление)
 
 ### Результаты:
-....
+Алгоритм угадывает число в среднем за 5 попыток
 
 :arrow_up:[к оглавлению](https://github.com/Chipayka/SFDS/tree/main/project_0/README.md#Оглавление)
 ### Выводы:
