@@ -14,14 +14,19 @@ def random_predict(number:int=1) -> int:
     """
 
     count = 0
+    min = 0
+    max = 100
 
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+        predict_number = round((min+max)/2) # сужаем поиск, делим
         if number == predict_number:
             break # выход из цикла, если угадали
+        elif number > predict_number:
+            min = predict_number
+        elif number < predict_number:
+            max = predict_number
     return(count)
-
 
 def score_game(random_predict) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
