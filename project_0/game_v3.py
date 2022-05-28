@@ -1,5 +1,6 @@
 """Игра угадай число
 компьютер сам угадывает
+количество попыток не должно превышать 20
 """
 import numpy as np
 
@@ -40,7 +41,7 @@ def score_game(random_predict) -> int:
 
     count_ls = [] # список для сохранения количества попыток
     np.random.seed(1) # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000)) # загадали список чисел
+    random_array = np.random.randint(1, 101, size=(10)) # загадали список чисел
 
     for number in random_array:
         count_ls.append(random_predict(number))
